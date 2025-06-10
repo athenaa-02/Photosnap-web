@@ -1,7 +1,9 @@
+// import logo from '../../../starter-code/assets/shared/desktop/logo'
+
 function Header(){
    return(
     <>
-    header here <br />
+    header <br />
     </>
    )
 }
