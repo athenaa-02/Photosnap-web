@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    height: 72px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 37px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.general_link{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header svg{
+    cursor: pointer;
+}
+button.invite{
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 158px;
+    height: 40px;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
