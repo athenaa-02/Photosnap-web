@@ -1,0 +1,9 @@
+div.container{
+    display: flex;
+}
+
+aside.dark{
+ background-color: black;
+ color: white;
+}
+
