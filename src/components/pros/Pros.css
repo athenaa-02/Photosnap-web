@@ -1,9 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
 div.container{
     display: flex;
+}
+aside{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside div{
+    width: 387px;   
 }
 
 aside.dark{
  background-color: black;
  color: white;
 }
+
+aside h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4px;
+}
+aside article{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+aside.dark a{
+    color: white;
+}
+aside.light a{
+    color: black;
+}
+
+aside a{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    margin-top: 48px;
+}
+a svg{
+    margin-left: 18px;
+}
+
 
